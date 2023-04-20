@@ -1,7 +1,7 @@
 from config.config import *
 
-@app.route("/listar_produtos")
-def listar_produtos():
+@app.route("/listar_vendas")
+def listar_vendas():
     try:
        
         lista_retorno = [x.json() for x in lista]
