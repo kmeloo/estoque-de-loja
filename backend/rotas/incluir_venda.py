@@ -1,14 +1,14 @@
 from config.config import *
 from modelo.produtos import *
 
-@app.route("/incluir_produto", methods=['POST'])
+@app.route("/incluir_venda", methods=['POST'])
 def incluir():
     dados = request.get_json()
     try:
         
-        novo = Produto(**dados)
+        nova = Venda(**dados)
 
-        lista.append(novo)
+        lista.append(nova)
 
         return jsonify({"resultado": "ok", "detalhes":"ok"})
     except Exception as e:
