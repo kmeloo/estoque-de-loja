@@ -1,5 +1,5 @@
 from config.config import *
-from teste import *
+from testes import *
 
 # aplicação de contexto
 with app.app_context():
