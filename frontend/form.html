@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pt-br"> 
+
+<head>
+    <title>Cadastro de produto</title>
+</head>
+
+<body>
+    <a href="listing.html">Listar</a> | <b>Incluir</b>
+    <hr>
+    <form id="formulario" onsubmit="return false;">
+        <p>
+            Produto: <input type="text" id="produto" name ="produto " value="caneta">
+        </p>
+        <p>
+           Quantidade: <input type="text" id="quantidade" name="quantidade" value="20">
+        </p>
+        <p>
+            Marca: <input type="text" id="marca" name="marca" value="bic">
+        </p>
+        <button id="btIncluir"">
+            Incluir!!
+        </button>
+    </form>
+
+    <!-- inclusão dos scripts -->
+
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script type="module" src="js/incluir_pessoa.js"></script>
+
+</body>
+
+</html>
