@@ -13,6 +13,28 @@
             background-color: bisque;
             font-family: Georgia, 'Times New Roman', Times, serif;
         }
+
+        .form{
+            text-align: center;
+        }
+
+        a{
+            margin-left: 40%;
+            font-size: 20px;
+            text-decoration: none;
+            color:  rgb(219, 158, 73);
+        }
+
+        a:hover{
+            color: rgb(116, 73, 22);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(116, 73, 22);
+            padding-top: 5%;
+        }
+
         #btIncluir{
             background-color: rgb(219, 158, 73);
             color: bisque;
@@ -20,9 +42,10 @@
 
     </style>
 
-    <a href="listing.html">Listar</a> | <b>Incluir</b>
+    <a href="listing.html">Clique para listar os produtos</a>
     <hr>
-    <form id="formulario" onsubmit="return false;">
+    <h1> Incluir Venda</h1>
+    <form id="formulario" class="form" onsubmit="return false;">
         <p>
             CPF: <input type="text" id="cpf" name ="cpf " value="123456789">
         </p>
