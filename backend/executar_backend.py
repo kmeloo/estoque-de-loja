@@ -1,4 +1,5 @@
 from config.config import *
+from modelo.venda import *
 from rotas.listar_vendas import *
 from rotas.incluir_venda import *
 
