@@ -1,7 +1,4 @@
-from config.config import *
-from testes import *
+from testes import teste_venda
 
-# aplicação de contexto
-with app.app_context():
-
-    teste_venda.run()
+# sequência de testes
+teste_venda.executar()
